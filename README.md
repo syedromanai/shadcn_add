@@ -1,4 +1,4 @@
-# shadcn_add — spike for flutter-shadcn-ui issue #286
+# shadcn_add - spike for flutter-shadcn-ui issue #286
 
 A working proof-of-concept CLI for [flutter-shadcn-ui#286 "Feature: CLI"](https://github.com/nank1ro/flutter-shadcn-ui/issues/286):
 copy component source into a consuming project, shadcn-style, instead of taking
