@@ -1,0 +1,15 @@
+name: shadcn_add
+description: >-
+  Spike for flutter-shadcn-ui issue #286: a CLI that copies shadcn_ui component
+  source into a consuming project and rewrites component-to-component imports to
+  local paths, shadcn-style.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+# Intentionally zero runtime dependencies: uses dart:io HttpClient only, so
+# `dart pub get` cannot fail and the spike runs anywhere a Dart SDK exists.
+dev_dependencies:
+  test: ^1.25.0
